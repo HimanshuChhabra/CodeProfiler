@@ -91,3 +91,25 @@ public class Profiler {
 	}
 
 }
+
+/*
+Output
+*********************** Profiler Report *********************** 
+
+Main.method3(Profiler.java:64) -> 3000.0 milliseconds
+Main.method2(Profiler.java:53) -> 4003.0 milliseconds
+Main.method1(Profiler.java:42) -> 6004.0 milliseconds
+-------------------------------------------------------------------
+
+Main.method4(Profiler.java:75) -> 2000.0 milliseconds
+-------------------------------------------------------------------
+
+Main.method3(Profiler.java:64) -> 3000.0 milliseconds
+Main.method2(Profiler.java:53) -> 4000.0 milliseconds
+Main.method1(Profiler.java:42) -> 6001.0 milliseconds
+-------------------------------------------------------------------
+
+Main.method4(Profiler.java:75) -> 2000.0 milliseconds
+-------------------------------------------------------------------
+
+*/
